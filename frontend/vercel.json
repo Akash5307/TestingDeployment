@@ -1,0 +1,12 @@
+{
+  "version": 2,  // Update the version number as needed (check Vercel docs)
+  "builds": [
+    {
+      "src": "public",
+      "use": "@vercel/static"
+    }
+  ],
+  "env": {  // Add the env section here
+    "PUBLIC_URL": "https://testing-deployment-server.vercel.app"
+  }
+}
